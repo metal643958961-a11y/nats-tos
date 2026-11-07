@@ -1,0 +1,18 @@
+version: "3.8"
+services:
+  nats:
+    container_name: nats
+    image: nats:2.15.2-scratch@sha256:6157c118e1f123b1d7ee3bc74906b2f52611d95fe1679e921f032a0fe38a129b
+    platform: linux/amd64
+    user: "1000:1000"
+    command: ["--user", "client", "--pass", "${NATS_CLIENT_SECRET:?Set a random NATS_CLIENT_SECRET in the project .env}", "--jetstream", "--store_dir", "/data", "--port", "4222"]
+    restart: unless-stopped
+    read_only: true
+    cap_drop: [ALL]
+    security_opt: ["no-new-privileges:true"]
+    pids_limit: 96
+    mem_limit: 192m
+    ports:
+      - "127.0.0.1:14222:4222"
+    volumes:
+      - ./data:/data

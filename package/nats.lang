@@ -1,0 +1,181 @@
+[zh-cn]
+name = "NATS Server"
+auth = "316z666"
+descript = "本机 NATS 消息代理，支持主题路由、请求应答与 JetStream 存储。"
+important = "先在 项目 .env 设置随机 NATS_CLIENT_SECRET，UID 1000 须可写 data。以 client 连接 127.0.0.1:14222，无网页界面。"
+release_note = "NATS Server 2.15.2 / TOS x86_64 Beta 1"
+
+[zh-hk]
+name = "NATS Server"
+auth = "316z666"
+descript = "本機 NATS 訊息代理，支援主題路由、請求回應與 JetStream 儲存。"
+important = "先在 项目 .env 設定隨機 NATS_CLIENT_SECRET，UID 1000 須可寫 data。以 client 連線至 127.0.0.1:14222，無網頁介面。"
+release_note = "NATS Server 2.15.2 / TOS x86_64 Beta 1"
+
+[en-us]
+name = "NATS Server"
+auth = "316z666"
+descript = "Local NATS message broker with subject routing, request/reply and JetStream storage."
+important = "Create a project .env with NATS_CLIENT_SECRET set to a random secret; UID 1000 must write data. Connect as client on 127.0.0.1:14222. No web interface."
+release_note = "NATS Server 2.15.2 / TOS x86_64 Beta 1"
+
+[ko-kr]
+name = "NATS Server"
+auth = "316z666"
+descript = "Local NATS message broker with subject routing, request/reply and JetStream storage."
+important = "Create a project .env with NATS_CLIENT_SECRET set to a random secret; UID 1000 must write data. Connect as client on 127.0.0.1:14222. No web interface."
+release_note = "NATS Server 2.15.2 / TOS x86_64 Beta 1"
+
+[ja-jp]
+name = "NATS Server"
+auth = "316z666"
+descript = "Local NATS message broker with subject routing, request/reply and JetStream storage."
+important = "Create a project .env with NATS_CLIENT_SECRET set to a random secret; UID 1000 must write data. Connect as client on 127.0.0.1:14222. No web interface."
+release_note = "NATS Server 2.15.2 / TOS x86_64 Beta 1"
+
+[de-de]
+name = "NATS Server"
+auth = "316z666"
+descript = "Local NATS message broker with subject routing, request/reply and JetStream storage."
+important = "Create a project .env with NATS_CLIENT_SECRET set to a random secret; UID 1000 must write data. Connect as client on 127.0.0.1:14222. No web interface."
+release_note = "NATS Server 2.15.2 / TOS x86_64 Beta 1"
+
+[fr-fr]
+name = "NATS Server"
+auth = "316z666"
+descript = "Local NATS message broker with subject routing, request/reply and JetStream storage."
+important = "Create a project .env with NATS_CLIENT_SECRET set to a random secret; UID 1000 must write data. Connect as client on 127.0.0.1:14222. No web interface."
+release_note = "NATS Server 2.15.2 / TOS x86_64 Beta 1"
+
+[it-it]
+name = "NATS Server"
+auth = "316z666"
+descript = "Local NATS message broker with subject routing, request/reply and JetStream storage."
+important = "Create a project .env with NATS_CLIENT_SECRET set to a random secret; UID 1000 must write data. Connect as client on 127.0.0.1:14222. No web interface."
+release_note = "NATS Server 2.15.2 / TOS x86_64 Beta 1"
+
+[es-es]
+name = "NATS Server"
+auth = "316z666"
+descript = "Local NATS message broker with subject routing, request/reply and JetStream storage."
+important = "Create a project .env with NATS_CLIENT_SECRET set to a random secret; UID 1000 must write data. Connect as client on 127.0.0.1:14222. No web interface."
+release_note = "NATS Server 2.15.2 / TOS x86_64 Beta 1"
+
+[hu-hu]
+name = "NATS Server"
+auth = "316z666"
+descript = "Local NATS message broker with subject routing, request/reply and JetStream storage."
+important = "Create a project .env with NATS_CLIENT_SECRET set to a random secret; UID 1000 must write data. Connect as client on 127.0.0.1:14222. No web interface."
+release_note = "NATS Server 2.15.2 / TOS x86_64 Beta 1"
+
+[pl-pl]
+name = "NATS Server"
+auth = "316z666"
+descript = "Local NATS message broker with subject routing, request/reply and JetStream storage."
+important = "Create a project .env with NATS_CLIENT_SECRET set to a random secret; UID 1000 must write data. Connect as client on 127.0.0.1:14222. No web interface."
+release_note = "NATS Server 2.15.2 / TOS x86_64 Beta 1"
+
+[tr-tr]
+name = "NATS Server"
+auth = "316z666"
+descript = "Local NATS message broker with subject routing, request/reply and JetStream storage."
+important = "Create a project .env with NATS_CLIENT_SECRET set to a random secret; UID 1000 must write data. Connect as client on 127.0.0.1:14222. No web interface."
+release_note = "NATS Server 2.15.2 / TOS x86_64 Beta 1"
+
+[ru-ru]
+name = "NATS Server"
+auth = "316z666"
+descript = "Local NATS message broker with subject routing, request/reply and JetStream storage."
+important = "Create a project .env with NATS_CLIENT_SECRET set to a random secret; UID 1000 must write data. Connect as client on 127.0.0.1:14222. No web interface."
+release_note = "NATS Server 2.15.2 / TOS x86_64 Beta 1"
+
+[pt-pt]
+name = "NATS Server"
+auth = "316z666"
+descript = "Local NATS message broker with subject routing, request/reply and JetStream storage."
+important = "Create a project .env with NATS_CLIENT_SECRET set to a random secret; UID 1000 must write data. Connect as client on 127.0.0.1:14222. No web interface."
+release_note = "NATS Server 2.15.2 / TOS x86_64 Beta 1"
+
+[cs-cz]
+name = "NATS Server"
+auth = "316z666"
+descript = "Local NATS message broker with subject routing, request/reply and JetStream storage."
+important = "Create a project .env with NATS_CLIENT_SECRET set to a random secret; UID 1000 must write data. Connect as client on 127.0.0.1:14222. No web interface."
+release_note = "NATS Server 2.15.2 / TOS x86_64 Beta 1"
+
+[da-dk]
+name = "NATS Server"
+auth = "316z666"
+descript = "Local NATS message broker with subject routing, request/reply and JetStream storage."
+important = "Create a project .env with NATS_CLIENT_SECRET set to a random secret; UID 1000 must write data. Connect as client on 127.0.0.1:14222. No web interface."
+release_note = "NATS Server 2.15.2 / TOS x86_64 Beta 1"
+
+[nl-nl]
+name = "NATS Server"
+auth = "316z666"
+descript = "Local NATS message broker with subject routing, request/reply and JetStream storage."
+important = "Create a project .env with NATS_CLIENT_SECRET set to a random secret; UID 1000 must write data. Connect as client on 127.0.0.1:14222. No web interface."
+release_note = "NATS Server 2.15.2 / TOS x86_64 Beta 1"
+
+[nb-no]
+name = "NATS Server"
+auth = "316z666"
+descript = "Local NATS message broker with subject routing, request/reply and JetStream storage."
+important = "Create a project .env with NATS_CLIENT_SECRET set to a random secret; UID 1000 must write data. Connect as client on 127.0.0.1:14222. No web interface."
+release_note = "NATS Server 2.15.2 / TOS x86_64 Beta 1"
+
+[sv-se]
+name = "NATS Server"
+auth = "316z666"
+descript = "Local NATS message broker with subject routing, request/reply and JetStream storage."
+important = "Create a project .env with NATS_CLIENT_SECRET set to a random secret; UID 1000 must write data. Connect as client on 127.0.0.1:14222. No web interface."
+release_note = "NATS Server 2.15.2 / TOS x86_64 Beta 1"
+
+[el-gr]
+name = "NATS Server"
+auth = "316z666"
+descript = "Local NATS message broker with subject routing, request/reply and JetStream storage."
+important = "Create a project .env with NATS_CLIENT_SECRET set to a random secret; UID 1000 must write data. Connect as client on 127.0.0.1:14222. No web interface."
+release_note = "NATS Server 2.15.2 / TOS x86_64 Beta 1"
+
+[ro-ro]
+name = "NATS Server"
+auth = "316z666"
+descript = "Local NATS message broker with subject routing, request/reply and JetStream storage."
+important = "Create a project .env with NATS_CLIENT_SECRET set to a random secret; UID 1000 must write data. Connect as client on 127.0.0.1:14222. No web interface."
+release_note = "NATS Server 2.15.2 / TOS x86_64 Beta 1"
+
+[th-th]
+name = "NATS Server"
+auth = "316z666"
+descript = "Local NATS message broker with subject routing, request/reply and JetStream storage."
+important = "Create a project .env with NATS_CLIENT_SECRET set to a random secret; UID 1000 must write data. Connect as client on 127.0.0.1:14222. No web interface."
+release_note = "NATS Server 2.15.2 / TOS x86_64 Beta 1"
+
+[vi-vn]
+name = "NATS Server"
+auth = "316z666"
+descript = "Local NATS message broker with subject routing, request/reply and JetStream storage."
+important = "Create a project .env with NATS_CLIENT_SECRET set to a random secret; UID 1000 must write data. Connect as client on 127.0.0.1:14222. No web interface."
+release_note = "NATS Server 2.15.2 / TOS x86_64 Beta 1"
+
+[id-id]
+name = "NATS Server"
+auth = "316z666"
+descript = "Local NATS message broker with subject routing, request/reply and JetStream storage."
+important = "Create a project .env with NATS_CLIENT_SECRET set to a random secret; UID 1000 must write data. Connect as client on 127.0.0.1:14222. No web interface."
+release_note = "NATS Server 2.15.2 / TOS x86_64 Beta 1"
+
+[ar-sa]
+name = "NATS Server"
+auth = "316z666"
+descript = "Local NATS message broker with subject routing, request/reply and JetStream storage."
+important = "Create a project .env with NATS_CLIENT_SECRET set to a random secret; UID 1000 must write data. Connect as client on 127.0.0.1:14222. No web interface."
+release_note = "NATS Server 2.15.2 / TOS x86_64 Beta 1"
+
+[he-il]
+name = "NATS Server"
+auth = "316z666"
+descript = "Local NATS message broker with subject routing, request/reply and JetStream storage."
+important = "Create a project .env with NATS_CLIENT_SECRET set to a random secret; UID 1000 must write data. Connect as client on 127.0.0.1:14222. No web interface."
+release_note = "NATS Server 2.15.2 / TOS x86_64 Beta 1"
