@@ -1,7 +1,12 @@
-# NATS Server v2.15.2.1 Beta
+# nats v2.15.2.2 — 整改版本
 
-TOS 7 x86_64 Docker 应用，ID nats。单节点 NATS Server v2.15.2 提供主题路由、队列组、请求应答及 JetStream 消息持久化。无 Web 界面。依赖 Docker Engine。首次启动须按 README 准备项目 .env 和 data 目录；仅监听宿主回环地址 127.0.0.1:14222。
+修复分类、声明持久命名卷、首次启动随机凭据及非root权限；去除Beta标记。使用固定稳定版镜像。补齐隐私政策、许可和复核证据。
 
-经本地与 TOS 7.0.1422 真机离线 Compose 验证，错误口令被拒绝，请求应答正常，容器重建后读回同一条消息。演示机从 Docker Hub 冷拉取时默认代理返回 502；应用中心一键安装、首次设置及卸载尚未验证。
+平台：TOS7 / x86_64 / Docker。附件：`nats.tar.gz`、`SHA256SUMS`。
+SHA256：`e23ba622673f84f5952b30369f9ab5da3be0cac4063418daa17f16c8026a5fd9`。
 
-附件 nats.tar.gz 的 SHA256：f691be9fc1fac900a4342532491b6247af30c7560b91eba049dfd638afdc511d。上游许可证 Apache-2.0；包中不包含镜像层。[反馈](https://github.com/metal643958961-a11y/nats-tos/issues)
+验收范围：官方包静态检查、隔离Linux Docker本地回归和固定镜像扫描；真实TOS应用中心安装/桌面/升级/卸载未验证。Docker冷启动使用缓存镜像，不证明TOS官方代理冷拉取故障解除。
+
+旧版数据在绑定目录，新版采用命名卷，不能直接假设原数据自动出现。先停服、备份，再按README迁移。TOS Docker当前不支持原地升级；使用官方支持的卸载保留数据/重装路径，真实TOS上仍需验收。命名卷删除须管理员显式操作。
+
+公开发布不等于平台接收或审核通过。旧审核尚未结束时不撤回、不重复提交。
